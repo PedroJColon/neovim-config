@@ -4,12 +4,13 @@ return {
 		config = function()
 			require("mason").setup()
 		end,
+		vim.keymap.set("n", "<space>mm", ":Mason<CR>")
 	},
 	{
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "rust_analyzer", "clangd" },
+				ensure_installed = { "lua_ls", "rust_analyzer", "clangd", },
 				automatic_installation = true,
 			})
 		end,
