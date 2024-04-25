@@ -10,6 +10,7 @@ return {
 			-- parsed: "~/Pictures/CodeSnap_y-m-d_at_h:m:s.png"
 			-- save_path = "~/Pictures/foo.png"
 			-- parsed: "~/Pictures/foo.png"
+      mac_window_bar = false,
 			save_path = "~/Pictures",
 			has_breadcrumbs = true,
 			breadcrumbs_separator = "/",
