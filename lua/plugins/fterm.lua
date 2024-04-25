@@ -5,7 +5,7 @@ return {
   "numToStr/FTerm.nvim",
   config = function()
     require("FTerm").setup({
-      cmd = os.getenv("SHELL"),
+      cmd = "fish",
       border = "double",
       dimensions = {
         height = 0.9,
