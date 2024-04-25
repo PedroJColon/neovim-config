@@ -11,6 +11,7 @@ options.expandtab = true
 options.termguicolors = true
 options.relativenumber = true
 options.number = true
+options.showmode = false
 
 -- Change behavior of tab
 options.tabstop = 2
